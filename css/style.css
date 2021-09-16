@@ -139,6 +139,22 @@ img:not(:last-child) {
 }
 
 @media only screen and (max-width: 450px) {
+  h1 {
+    font-size: 31px;
+  }
+
+  h2 {
+    font-size: 28px;
+    margin-top: 40px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+
   p {
     text-align: justify;
     width: 95%;
