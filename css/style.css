@@ -9,24 +9,28 @@ h4 {
   text-align: center;
   font: normal 25px Verdana Pro;
   color: rgb(43, 55, 33);
+  margin: 0;
 }
 
 h1 {
   /* font-size: 45px; */
   font-size: 48px;
+  margin: 20px 0 50px 0;
 }
 h2 {
   /* font-size: 40px; */
   font-size: 42px;
-  margin-top: 60px;
+  margin: 60px 0 40px 0;
 }
 h3 {
   /* font-size: 35px; */
   font-size: 36px;
+  margin: 0 0 40px 0;
 }
 h4 {
   /* font-size: 28px; */
   font-size: 30px;
+  margin: 0 0 40px 0;
 }
 
 .one {
@@ -46,10 +50,11 @@ p {
 
 img {
   width: 80%;
+  margin-top: 60px;
 }
 
 img:not(:last-child) {
-  margin: 40px 0;
+  margin-bottom: 60px;
 }
 
 @media only screen and (max-width: 1200px) {
